@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://bradescobank.com/en/",
+  "path": "en/index",
+  "timestamp": "2026-10-23T17:22:22.041Z",
+  "title": "Bradesco Bank",
+  "template": "home",
+  "blocks": [
+    "hero-video",
+    "hero-video",
+    "cards-tiles",
+    "cards-overlay",
+    "cards-overlay",
+    "hero-banner"
+  ]
+}

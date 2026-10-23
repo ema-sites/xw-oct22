@@ -1,0 +1,30 @@
+{
+  "variantName": "hero-video",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-width band with autoplaying muted looping background video (Vimeo) behind overlay text; text white, either right-aligned H1 (top hero) or centered large statement.",
+  "contentPattern": "Full-width background video with headline: a hero; video background belongs to the block, so the section is not styled. | Statement text over an autoplaying background video (visual tree reports #000 only because the video is painted over a black container); background media belongs to the hero block, so no section style.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Full-width band with an autoplaying, muted, looping background video (Vimeo, YouTube or MP4) behind a headline or statement.",
+  "reuseGuidance": "Use for heroes or statement bands whose background is a video. Author the video URL as a plain link in the text; it is removed from the text and rendered as background media. An optional image acts as poster/fallback. For a photo background, use hero-banner.",
+  "sourceUrl": "https://bradescobank.com/en/",
+  "blockStructure": {
+    "source": "get_block_details /block-collection/hero (xwalk model: image, imageAlt, text)",
+    "rows": [
+      {
+        "row": 1,
+        "cells": [
+          "Background image (optional; for background-video heroes use the poster image and keep the Vimeo URL as a link in the text cell)"
+        ]
+      },
+      {
+        "row": 2,
+        "cells": [
+          "Rich text: title (heading), subheading/paragraph, CTA link"
+        ]
+      }
+    ],
+    "maxRows": 3
+  }
+}

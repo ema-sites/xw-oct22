@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://bradescobank.com/en/"
+      ],
+      "representativeUrl": "https://bradescobank.com/en/",
+      "description": "Bradesco Bank homepage: background-video heroes, segment tiles, product overlay cards and promo banner",
+      "urlPattern": "/*",
+      "blocks": [
+        {
+          "name": "hero-video",
+          "instances": [
+            ".elementor-element-b079a4a",
+            ".elementor-element-e5bf88e"
+          ]
+        },
+        {
+          "name": "cards-tiles",
+          "instances": [
+            ".elementor-element-6ff733d",
+            "section.services"
+          ]
+        },
+        {
+          "name": "cards-overlay",
+          "instances": [
+            ".elementor-element-c28d200",
+            ".elementor-element-6cab8f9"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            ".elementor-element-f4e421d"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "rc3",
+          "name": "Hero (background video)",
+          "selector": [
+            ".elementor-element-b079a4a"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-video"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc5",
+          "name": "Tailored offerings intro",
+          "selector": [
+            ".elementor-element-c766b99"
+          ],
+          "style": "centered",
+          "blocks": [],
+          "defaultContent": [
+            ".elementor-element-37e512d h2"
+          ]
+        },
+        {
+          "id": "rc6",
+          "name": "Client segment tiles",
+          "selector": [
+            ".elementor-element-6ff733d",
+            "section.services"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-tiles"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc8",
+          "name": "Solutions statement (background video)",
+          "selector": [
+            ".elementor-element-e5bf88e"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-video"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc9",
+          "name": "Products intro",
+          "selector": [
+            ".elementor-element-0faff3c"
+          ],
+          "style": "centered",
+          "blocks": [],
+          "defaultContent": [
+            ".elementor-element-147aee5 h2"
+          ]
+        },
+        {
+          "id": "rc10",
+          "name": "Product cards row 1",
+          "selector": [
+            ".elementor-element-c28d200"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-overlay"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc11",
+          "name": "Product cards row 2",
+          "selector": [
+            ".elementor-element-6cab8f9"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-overlay"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc12",
+          "name": "Market trends intro",
+          "selector": [
+            ".elementor-element-3326291"
+          ],
+          "style": "centered",
+          "blocks": [],
+          "defaultContent": [
+            ".elementor-element-69c93f6 h2"
+          ]
+        },
+        {
+          "id": "rc13",
+          "name": "Exclusive content banner",
+          "selector": [
+            ".elementor-element-f4e421d"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

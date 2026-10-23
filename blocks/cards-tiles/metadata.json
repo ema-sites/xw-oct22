@@ -1,0 +1,25 @@
+{
+  "variantName": "cards-tiles",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Edge-to-edge row of 4 tall portrait image tiles with no gutter-padding, entire tile linked, single uppercase white label at the bottom over the image.",
+  "contentPattern": "Four look-alike linked image tiles that wrap responsively, each linking to a detail page: Cards.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Edge-to-edge row of tall image tiles, each fully linked with a short label over the image.",
+  "reuseGuidance": "Use for audience/segment navigation tiles (image + single label link). Author the label as a link; the whole tile becomes clickable. For cards with eyebrow, description and CTA use cards-overlay.",
+  "sourceUrl": "https://bradescobank.com/en/",
+  "blockStructure": {
+    "source": "get_block_details /block-collection/cards (container; child model 'card': image, imageAlt, text)",
+    "rows": [
+      {
+        "row": "1..N (one per card)",
+        "cells": [
+          "Image (image/imageAlt)",
+          "Rich text: eyebrow paragraph, heading, description, CTA link"
+        ]
+      }
+    ],
+    "notes": "rc6 tile images are CSS background-images on the anchor wrappers (not <img> in cleaned.html); the importer must read the computed background-image. The whole tile is a link: put label as link in text cell."
+  }
+}

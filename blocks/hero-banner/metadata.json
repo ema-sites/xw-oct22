@@ -1,0 +1,30 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-width photo background banner, left-aligned white heading, short text and red pill CTA; mid/bottom-of-page promo.",
+  "contentPattern": "Photo background banner with heading, text and CTA: a hero; photo background belongs to the block, section not colored.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Full-width photo background banner with heading, short text and a CTA, used for promotional bands.",
+  "reuseGuidance": "Use for image-backed promo banners anywhere on the page. For a video background use hero-video.",
+  "sourceUrl": "https://bradescobank.com/en/",
+  "blockStructure": {
+    "source": "get_block_details /block-collection/hero (xwalk model: image, imageAlt, text)",
+    "rows": [
+      {
+        "row": 1,
+        "cells": [
+          "Background image (optional; for background-video heroes use the poster image and keep the Vimeo URL as a link in the text cell)"
+        ]
+      },
+      {
+        "row": 2,
+        "cells": [
+          "Rich text: title (heading), subheading/paragraph, CTA link"
+        ]
+      }
+    ],
+    "maxRows": 3
+  }
+}

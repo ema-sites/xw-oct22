@@ -1,0 +1,11 @@
+{
+  "type": "xwalk",
+  "sites": {
+    "xw-oct22": {
+      "previewOrg": "ema-sites",
+      "previewSite": "xw-oct22",
+      "contentHostUrl": "author-p233463-e2361049.adobeaemcloud.com",
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

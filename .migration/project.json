@@ -5,7 +5,11 @@
       "previewOrg": "ema-sites",
       "previewSite": "xw-oct22",
       "contentHostUrl": "author-p233463-e2361049.adobeaemcloud.com",
-      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json"
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
+      "aemSitePath": "/content/ema-sites-xw-oct22",
+      "aemAssetsFolderPath": "/content/dam/ema-sites-xw-oct22",
+      "aemSiteName": "ema-sites-xw-oct22",
+      "aemSiteTitle": "ema-sites-xw-oct22"
     }
   }
 }

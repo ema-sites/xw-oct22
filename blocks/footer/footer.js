@@ -13,6 +13,8 @@ export default async function decorate(block) {
 
   // decorate footer DOM
   block.textContent = '';
+  // no footer page published yet: leave the footer empty instead of failing
+  if (!fragment) return;
   const footer = document.createElement('div');
   while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
 
